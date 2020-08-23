@@ -16,7 +16,7 @@ public class Rook extends ChessPiece {
 	}
 	@Override
 	public boolean[][] possibleMoves() {
-<<<<<<< HEAD
+
 		boolean[][] mat = new boolean [getBoard().getRows()][getBoard().getColumns()];
 		
 		Position p = new Position(0, 0);
@@ -59,9 +59,6 @@ public class Rook extends ChessPiece {
 					mat[p.getRow()][p.getColumn()] = true;
 				}
 		
-=======
-		boolean[][] mat = new boolean [getBoard().getColumns()][getBoard().getRows()];
->>>>>>> ab94d69e768b6bc8b643362078b6a536394783c4
 		return mat;
 	}
 
