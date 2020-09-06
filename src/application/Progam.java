@@ -40,15 +40,16 @@ public class Progam {
 				if(capturedPieces != null) {
 					captured.add(capturedPieces);
 				}
-			}
+			
+			 }
 			catch(ChessException e){
 				System.out.println(e.getMessage());
 				sc.nextLine();
-			}
+			 }
 			catch(InputMismatchException e){
 				System.out.println(e.getMessage());
 				sc.nextLine();
-			}
+			 }
 		}
 		
  
