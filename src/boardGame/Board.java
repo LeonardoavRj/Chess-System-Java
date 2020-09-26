@@ -27,7 +27,6 @@ public class Board {
 	public int getColumns() {
 		return columns;
 	}
-
 	
 	public Piece piece (int rows,int columns) {
 		if(!positionExists(rows,columns)) {
